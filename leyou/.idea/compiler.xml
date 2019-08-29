@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="leyou-item-service" />
+        <module name="ly-cart" />
+        <module name="ly-registry" />
+        <module name="leyou-auth-common" />
+        <module name="ly-sms" />
+        <module name="leyou-auth-service" />
+        <module name="leyou-comments-interface" />
+        <module name="ly-config" />
+        <module name="leyou-user-service" />
+        <module name="ly-common" />
+        <module name="leyou-order-service" />
+        <module name="ly-upload" />
+        <module name="ly-search" />
+        <module name="ly-api-gateway" />
+        <module name="leyou-user-interface" />
+        <module name="leyou-seckill-service" />
+        <module name="leyou-seckill-interface" />
+        <module name="leyou-item-interface" />
+        <module name="leyou-order-interface" />
+        <module name="leyou-comments-service" />
+        <module name="ly-goods-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leyou-authentication-common" target="1.8" />
+      <module name="leyou-authentication-service" target="1.8" />
+      <module name="leyouauthenticationcommon" target="1.8" />
+      <module name="ly-authentication" target="1.8" />
+      <module name="ly-comments" target="1.8" />
+      <module name="lyorder" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="leyou-auth-common" options="-parameters" />
+      <module name="leyou-auth-service" options="-parameters" />
+      <module name="leyou-authentication-common" options="-parameters" />
+      <module name="leyou-authentication-service" options="-parameters" />
+      <module name="leyou-comments-interface" options="-parameters" />
+      <module name="leyou-comments-service" options="-parameters" />
+      <module name="leyou-item-interface" options="-parameters" />
+      <module name="leyou-item-service" options="-parameters" />
+      <module name="leyou-order-interface" options="-parameters" />
+      <module name="leyou-order-service" options="-parameters" />
+      <module name="leyou-seckill-interface" options="-parameters" />
+      <module name="leyou-seckill-service" options="-parameters" />
+      <module name="leyou-user-interface" options="-parameters" />
+      <module name="leyou-user-service" options="-parameters" />
+      <module name="leyouauthenticationcommon" options="-parameters" />
+      <module name="ly-api-gateway" options="-parameters" />
+      <module name="ly-auth" options="-parameters" />
+      <module name="ly-authentication" options="-parameters" />
+      <module name="ly-cart" options="-parameters" />
+      <module name="ly-common" options="-parameters" />
+      <module name="ly-config" options="-parameters" />
+      <module name="ly-goods-web" options="-parameters" />
+      <module name="ly-item" options="-parameters" />
+      <module name="ly-order" options="-parameters" />
+      <module name="ly-registry" options="-parameters" />
+      <module name="ly-search" options="-parameters" />
+      <module name="ly-sms" options="-parameters" />
+      <module name="ly-upload" options="-parameters" />
+    </option>
+  </component>
+</project>
